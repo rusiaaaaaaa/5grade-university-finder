@@ -1,0 +1,2384 @@
+[
+  {
+    "id": "computer-engineering",
+    "name": "컴퓨터공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Computer Science",
+      "Science",
+      "English"
+    ],
+    "keywords": [
+      "코딩",
+      "데이터",
+      "알고리즘",
+      "소프트웨어",
+      "AI"
+    ],
+    "activities": [
+      "코딩",
+      "데이터 분석",
+      "설계",
+      "연구"
+    ],
+    "careers": [
+      "소프트웨어 엔지니어",
+      "데이터 엔지니어",
+      "보안 분석가",
+      "서비스 기획자"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "정보",
+      "영어",
+      "물리학"
+    ],
+    "similarMajorIds": [
+      "artificial-intelligence",
+      "statistics",
+      "electronic-engineering"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 86,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "컴퓨터공학은 수학, 정보, 영어 기반 역량과 코딩, 데이터 분석 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "artificial-intelligence",
+    "name": "인공지능",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Computer Science",
+      "Science",
+      "English"
+    ],
+    "keywords": [
+      "AI",
+      "머신러닝",
+      "데이터",
+      "확률",
+      "코딩"
+    ],
+    "activities": [
+      "코딩",
+      "데이터 분석",
+      "연구",
+      "수학 문제 풀이"
+    ],
+    "careers": [
+      "AI 엔지니어",
+      "머신러닝 연구원",
+      "데이터 사이언티스트"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "정보",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "computer-engineering",
+      "statistics",
+      "data-science"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 90,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "인공지능은 수학, 정보, 영어 기반 역량과 코딩, 데이터 분석 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "data-science",
+    "name": "데이터사이언스",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Computer Science",
+      "Social Studies",
+      "English"
+    ],
+    "keywords": [
+      "데이터",
+      "통계",
+      "AI",
+      "분석",
+      "모델링"
+    ],
+    "activities": [
+      "데이터 분석",
+      "코딩",
+      "연구",
+      "수학 문제 풀이"
+    ],
+    "careers": [
+      "데이터 사이언티스트",
+      "BI 분석가",
+      "AI 서비스 분석가"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "정보",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "statistics",
+      "artificial-intelligence",
+      "computer-engineering"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 88,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "데이터사이언스은 수학, 정보, 영어 기반 역량과 데이터 분석, 코딩 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "software",
+    "name": "소프트웨어학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Computer Science",
+      "English"
+    ],
+    "keywords": [
+      "소프트웨어",
+      "앱",
+      "웹",
+      "코딩",
+      "서비스"
+    ],
+    "activities": [
+      "코딩",
+      "설계",
+      "창업",
+      "데이터 분석"
+    ],
+    "careers": [
+      "프론트엔드 개발자",
+      "백엔드 개발자",
+      "모바일 앱 개발자"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "정보",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "computer-engineering",
+      "artificial-intelligence",
+      "cyber-security"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 87,
+    "employmentOriented": true,
+    "researchOriented": false,
+    "description": "소프트웨어학은 수학, 정보, 영어 기반 역량과 코딩, 설계 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "cyber-security",
+    "name": "사이버보안",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Computer Science",
+      "English"
+    ],
+    "keywords": [
+      "보안",
+      "네트워크",
+      "암호",
+      "해킹",
+      "시스템"
+    ],
+    "activities": [
+      "코딩",
+      "데이터 분석",
+      "연구",
+      "독서"
+    ],
+    "careers": [
+      "보안 분석가",
+      "침해 대응 전문가",
+      "보안 컨설턴트"
+    ],
+    "highSchoolSubjects": [
+      "정보",
+      "수학",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "computer-engineering",
+      "software",
+      "artificial-intelligence"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 85,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "사이버보안은 정보, 수학, 영어 기반 역량과 코딩, 데이터 분석 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "electronic-engineering",
+    "name": "전자공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Science",
+      "Computer Science"
+    ],
+    "keywords": [
+      "회로",
+      "반도체",
+      "로봇",
+      "센서",
+      "통신"
+    ],
+    "activities": [
+      "설계",
+      "실험",
+      "코딩",
+      "연구"
+    ],
+    "careers": [
+      "반도체 엔지니어",
+      "회로 설계자",
+      "통신 시스템 엔지니어"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "물리학",
+      "정보"
+    ],
+    "similarMajorIds": [
+      "semiconductor-engineering",
+      "mechanical-engineering",
+      "computer-engineering"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 84,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "전자공학은 수학, 물리학, 정보 기반 역량과 설계, 실험 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "semiconductor-engineering",
+    "name": "반도체공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Science",
+      "Computer Science"
+    ],
+    "keywords": [
+      "반도체",
+      "소자",
+      "공정",
+      "회로",
+      "소재"
+    ],
+    "activities": [
+      "실험",
+      "설계",
+      "데이터 분석",
+      "연구"
+    ],
+    "careers": [
+      "반도체 공정 엔지니어",
+      "소자 개발자",
+      "장비 엔지니어"
+    ],
+    "highSchoolSubjects": [
+      "물리학",
+      "화학",
+      "수학",
+      "정보"
+    ],
+    "similarMajorIds": [
+      "electronic-engineering",
+      "materials-engineering",
+      "chemical-engineering"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 89,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "반도체공학은 물리학, 화학, 수학 기반 역량과 실험, 설계 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "mechanical-engineering",
+    "name": "기계공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Science"
+    ],
+    "keywords": [
+      "설계",
+      "역학",
+      "로봇",
+      "제조",
+      "에너지"
+    ],
+    "activities": [
+      "설계",
+      "실험",
+      "수학 문제 풀이",
+      "연구"
+    ],
+    "careers": [
+      "기계 설계 엔지니어",
+      "로봇 엔지니어",
+      "품질 관리 엔지니어"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "물리학",
+      "화학"
+    ],
+    "similarMajorIds": [
+      "electronic-engineering",
+      "aerospace-engineering",
+      "industrial-engineering"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 79,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "기계공학은 수학, 물리학, 화학 기반 역량과 설계, 실험 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "industrial-engineering",
+    "name": "산업공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Computer Science",
+      "Social Studies"
+    ],
+    "keywords": [
+      "최적화",
+      "데이터",
+      "물류",
+      "경영",
+      "시스템"
+    ],
+    "activities": [
+      "데이터 분석",
+      "설계",
+      "토론",
+      "창업"
+    ],
+    "careers": [
+      "SCM 분석가",
+      "프로덕트 매니저",
+      "컨설턴트"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "정보",
+      "사회"
+    ],
+    "similarMajorIds": [
+      "data-science",
+      "business",
+      "statistics"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 82,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "산업공학은 수학, 정보, 사회 기반 역량과 데이터 분석, 설계 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "aerospace-engineering",
+    "name": "항공우주공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Science",
+      "English"
+    ],
+    "keywords": [
+      "항공",
+      "우주",
+      "역학",
+      "시뮬레이션",
+      "설계"
+    ],
+    "activities": [
+      "설계",
+      "실험",
+      "연구",
+      "수학 문제 풀이"
+    ],
+    "careers": [
+      "항공 시스템 엔지니어",
+      "우주 기술 연구원",
+      "시뮬레이션 엔지니어"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "물리학",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "mechanical-engineering",
+      "electronic-engineering",
+      "physics"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 74,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "항공우주공학은 수학, 물리학, 영어 기반 역량과 설계, 실험 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "chemical-engineering",
+    "name": "화학공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Science",
+      "Math"
+    ],
+    "keywords": [
+      "공정",
+      "화학",
+      "에너지",
+      "바이오",
+      "소재"
+    ],
+    "activities": [
+      "실험",
+      "설계",
+      "데이터 분석",
+      "연구"
+    ],
+    "careers": [
+      "공정 엔지니어",
+      "배터리 소재 엔지니어",
+      "바이오 공정 연구원"
+    ],
+    "highSchoolSubjects": [
+      "화학",
+      "수학",
+      "물리학"
+    ],
+    "similarMajorIds": [
+      "chemistry",
+      "materials-engineering",
+      "biotechnology"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 82,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "화학공학은 화학, 수학, 물리학 기반 역량과 실험, 설계 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "materials-engineering",
+    "name": "신소재공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Science",
+      "Math"
+    ],
+    "keywords": [
+      "소재",
+      "반도체",
+      "배터리",
+      "실험",
+      "분석"
+    ],
+    "activities": [
+      "실험",
+      "연구",
+      "데이터 분석",
+      "설계"
+    ],
+    "careers": [
+      "소재 개발자",
+      "반도체 공정 엔지니어",
+      "배터리 연구원"
+    ],
+    "highSchoolSubjects": [
+      "화학",
+      "물리학",
+      "수학"
+    ],
+    "similarMajorIds": [
+      "chemical-engineering",
+      "semiconductor-engineering",
+      "chemistry"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 84,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "신소재공학은 화학, 물리학, 수학 기반 역량과 실험, 연구 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "architecture",
+    "name": "건축학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Science",
+      "Social Studies"
+    ],
+    "keywords": [
+      "공간",
+      "설계",
+      "도시",
+      "디자인",
+      "구조"
+    ],
+    "activities": [
+      "설계",
+      "발표",
+      "글쓰기",
+      "독서"
+    ],
+    "careers": [
+      "건축가",
+      "도시 설계자",
+      "공간 기획자"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "물리학",
+      "사회",
+      "미술"
+    ],
+    "similarMajorIds": [
+      "urban-planning",
+      "mechanical-engineering",
+      "design"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 72,
+    "employmentOriented": true,
+    "researchOriented": false,
+    "description": "건축학은 수학, 물리학, 사회 기반 역량과 설계, 발표 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "urban-planning",
+    "name": "도시공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Social Studies",
+      "Computer Science"
+    ],
+    "keywords": [
+      "도시",
+      "교통",
+      "공간",
+      "데이터",
+      "정책"
+    ],
+    "activities": [
+      "데이터 분석",
+      "토론",
+      "설계",
+      "글쓰기"
+    ],
+    "careers": [
+      "도시 계획가",
+      "교통 분석가",
+      "공공 정책 분석가"
+    ],
+    "highSchoolSubjects": [
+      "사회",
+      "수학",
+      "정보"
+    ],
+    "similarMajorIds": [
+      "architecture",
+      "economics",
+      "public-administration"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 70,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "도시공학은 사회, 수학, 정보 기반 역량과 데이터 분석, 토론 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "physics",
+    "name": "물리학",
+    "field": "자연과학",
+    "relatedSubjects": [
+      "Math",
+      "Science"
+    ],
+    "keywords": [
+      "물리",
+      "실험",
+      "우주",
+      "반도체",
+      "연구"
+    ],
+    "activities": [
+      "실험",
+      "연구",
+      "수학 문제 풀이",
+      "독서"
+    ],
+    "careers": [
+      "연구원",
+      "반도체 공정 엔지니어",
+      "과학교사"
+    ],
+    "highSchoolSubjects": [
+      "물리학",
+      "수학",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "aerospace-engineering",
+      "electronic-engineering",
+      "mathematics"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 70,
+    "employmentOriented": false,
+    "researchOriented": true,
+    "description": "물리학은 물리학, 수학, 영어 기반 역량과 실험, 연구 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "chemistry",
+    "name": "화학",
+    "field": "자연과학",
+    "relatedSubjects": [
+      "Science",
+      "Math"
+    ],
+    "keywords": [
+      "실험",
+      "소재",
+      "분자",
+      "분석",
+      "연구"
+    ],
+    "activities": [
+      "실험",
+      "연구",
+      "데이터 분석",
+      "독서"
+    ],
+    "careers": [
+      "화학 연구원",
+      "품질 분석가",
+      "소재 개발자"
+    ],
+    "highSchoolSubjects": [
+      "화학",
+      "수학",
+      "생명과학"
+    ],
+    "similarMajorIds": [
+      "chemical-engineering",
+      "materials-engineering",
+      "biotechnology"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 75,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "화학은 화학, 수학, 생명과학 기반 역량과 실험, 연구 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "biology",
+    "name": "생명과학",
+    "field": "자연과학",
+    "relatedSubjects": [
+      "Science",
+      "Math",
+      "English"
+    ],
+    "keywords": [
+      "생명",
+      "실험",
+      "유전",
+      "의생명",
+      "연구"
+    ],
+    "activities": [
+      "실험",
+      "연구",
+      "독서",
+      "데이터 분석"
+    ],
+    "careers": [
+      "생명과학 연구원",
+      "바이오 데이터 분석가",
+      "과학교사"
+    ],
+    "highSchoolSubjects": [
+      "생명과학",
+      "화학",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "biotechnology",
+      "medicine",
+      "chemistry"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 73,
+    "employmentOriented": false,
+    "researchOriented": true,
+    "description": "생명과학은 생명과학, 화학, 영어 기반 역량과 실험, 연구 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "biotechnology",
+    "name": "의생명공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Science",
+      "Math",
+      "English"
+    ],
+    "keywords": [
+      "바이오",
+      "의생명",
+      "실험",
+      "데이터",
+      "연구"
+    ],
+    "activities": [
+      "실험",
+      "연구",
+      "데이터 분석",
+      "독서"
+    ],
+    "careers": [
+      "바이오 공정 연구원",
+      "의료기기 개발자",
+      "임상 데이터 분석가"
+    ],
+    "highSchoolSubjects": [
+      "생명과학",
+      "화학",
+      "수학",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "biology",
+      "chemical-engineering",
+      "medicine"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 80,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "의생명공학은 생명과학, 화학, 수학 기반 역량과 실험, 연구 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "mathematics",
+    "name": "수학",
+    "field": "자연과학",
+    "relatedSubjects": [
+      "Math",
+      "Science"
+    ],
+    "keywords": [
+      "증명",
+      "논리",
+      "모델링",
+      "추론",
+      "연구"
+    ],
+    "activities": [
+      "수학 문제 풀이",
+      "연구",
+      "독서",
+      "데이터 분석"
+    ],
+    "careers": [
+      "수리 연구원",
+      "금융 모델러",
+      "교사",
+      "데이터 분석가"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "물리학"
+    ],
+    "similarMajorIds": [
+      "statistics",
+      "physics",
+      "artificial-intelligence"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 72,
+    "employmentOriented": false,
+    "researchOriented": true,
+    "description": "수학은 수학, 물리학 기반 역량과 수학 문제 풀이, 연구 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "statistics",
+    "name": "통계학",
+    "field": "자연과학",
+    "relatedSubjects": [
+      "Math",
+      "Computer Science",
+      "Social Studies"
+    ],
+    "keywords": [
+      "데이터",
+      "확률",
+      "분석",
+      "모델링",
+      "리서치"
+    ],
+    "activities": [
+      "데이터 분석",
+      "수학 문제 풀이",
+      "연구",
+      "글쓰기"
+    ],
+    "careers": [
+      "데이터 분석가",
+      "리서치 분석가",
+      "보험 계리 전문가"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "정보",
+      "사회"
+    ],
+    "similarMajorIds": [
+      "data-science",
+      "mathematics",
+      "economics"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 83,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "통계학은 수학, 정보, 사회 기반 역량과 데이터 분석, 수학 문제 풀이 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "medicine",
+    "name": "의예과",
+    "field": "의학",
+    "relatedSubjects": [
+      "Science",
+      "Math",
+      "English",
+      "Korean"
+    ],
+    "keywords": [
+      "의학",
+      "생명",
+      "임상",
+      "진료",
+      "연구"
+    ],
+    "activities": [
+      "실험",
+      "연구",
+      "봉사",
+      "독서"
+    ],
+    "careers": [
+      "의사",
+      "의학 연구자",
+      "공중보건 전문가"
+    ],
+    "highSchoolSubjects": [
+      "생명과학",
+      "화학",
+      "수학",
+      "영어",
+      "국어"
+    ],
+    "similarMajorIds": [
+      "dentistry",
+      "korean-medicine",
+      "pharmacy"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 92,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "의예과은 생명과학, 화학, 수학 기반 역량과 실험, 연구 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "dentistry",
+    "name": "치의예과",
+    "field": "의학",
+    "relatedSubjects": [
+      "Science",
+      "Math",
+      "English",
+      "Korean"
+    ],
+    "keywords": [
+      "치의학",
+      "생명",
+      "임상",
+      "정밀",
+      "보건"
+    ],
+    "activities": [
+      "실험",
+      "봉사",
+      "연구",
+      "독서"
+    ],
+    "careers": [
+      "치과의사",
+      "구강보건 연구자",
+      "치의학 교수"
+    ],
+    "highSchoolSubjects": [
+      "생명과학",
+      "화학",
+      "수학",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "medicine",
+      "pharmacy",
+      "biology"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 89,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "치의예과은 생명과학, 화학, 수학 기반 역량과 실험, 봉사 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "korean-medicine",
+    "name": "한의예과",
+    "field": "의학",
+    "relatedSubjects": [
+      "Science",
+      "Korean",
+      "English"
+    ],
+    "keywords": [
+      "한의학",
+      "생명",
+      "임상",
+      "보건",
+      "상담"
+    ],
+    "activities": [
+      "독서",
+      "봉사",
+      "연구",
+      "글쓰기"
+    ],
+    "careers": [
+      "한의사",
+      "한의학 연구자",
+      "보건 상담 전문가"
+    ],
+    "highSchoolSubjects": [
+      "생명과학",
+      "화학",
+      "국어",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "medicine",
+      "dentistry",
+      "nursing"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 84,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "한의예과은 생명과학, 화학, 국어 기반 역량과 독서, 봉사 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "pharmacy",
+    "name": "약학",
+    "field": "의학",
+    "relatedSubjects": [
+      "Science",
+      "Math",
+      "English"
+    ],
+    "keywords": [
+      "약학",
+      "화학",
+      "생명",
+      "임상",
+      "제약"
+    ],
+    "activities": [
+      "실험",
+      "연구",
+      "데이터 분석",
+      "독서"
+    ],
+    "careers": [
+      "약사",
+      "제약 연구원",
+      "임상시험 전문가"
+    ],
+    "highSchoolSubjects": [
+      "화학",
+      "생명과학",
+      "수학",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "medicine",
+      "dentistry",
+      "biotechnology"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 87,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "약학은 화학, 생명과학, 수학 기반 역량과 실험, 연구 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "nursing",
+    "name": "간호학",
+    "field": "보건",
+    "relatedSubjects": [
+      "Science",
+      "Korean",
+      "English"
+    ],
+    "keywords": [
+      "보건",
+      "간호",
+      "봉사",
+      "생명",
+      "안정"
+    ],
+    "activities": [
+      "봉사",
+      "실험",
+      "발표",
+      "독서"
+    ],
+    "careers": [
+      "간호사",
+      "보건 교육자",
+      "임상 연구 코디네이터"
+    ],
+    "highSchoolSubjects": [
+      "생명과학",
+      "화학",
+      "영어",
+      "국어"
+    ],
+    "similarMajorIds": [
+      "medicine",
+      "biology",
+      "biotechnology"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 85,
+    "employmentOriented": true,
+    "researchOriented": false,
+    "description": "간호학은 생명과학, 화학, 영어 기반 역량과 봉사, 실험 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "economics",
+    "name": "경제학",
+    "field": "사회과학",
+    "relatedSubjects": [
+      "Math",
+      "Social Studies",
+      "English"
+    ],
+    "keywords": [
+      "경제",
+      "데이터",
+      "정책",
+      "금융",
+      "분석"
+    ],
+    "activities": [
+      "데이터 분석",
+      "토론",
+      "글쓰기",
+      "독서"
+    ],
+    "careers": [
+      "금융 분석가",
+      "정책 연구원",
+      "컨설턴트"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "경제",
+      "영어",
+      "사회"
+    ],
+    "similarMajorIds": [
+      "business",
+      "statistics",
+      "public-administration"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 78,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "경제학은 수학, 경제, 영어 기반 역량과 데이터 분석, 토론 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "business",
+    "name": "경영학",
+    "field": "사회과학",
+    "relatedSubjects": [
+      "Social Studies",
+      "Math",
+      "English"
+    ],
+    "keywords": [
+      "경영",
+      "마케팅",
+      "회계",
+      "전략",
+      "창업"
+    ],
+    "activities": [
+      "발표",
+      "토론",
+      "창업",
+      "글쓰기"
+    ],
+    "careers": [
+      "마케터",
+      "기획자",
+      "회계 담당자",
+      "창업가"
+    ],
+    "highSchoolSubjects": [
+      "사회",
+      "수학",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "economics",
+      "media-communication",
+      "statistics"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 76,
+    "employmentOriented": true,
+    "researchOriented": false,
+    "description": "경영학은 사회, 수학, 영어 기반 역량과 발표, 토론 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "public-administration",
+    "name": "행정학",
+    "field": "사회과학",
+    "relatedSubjects": [
+      "Social Studies",
+      "Korean",
+      "English"
+    ],
+    "keywords": [
+      "정책",
+      "행정",
+      "공공",
+      "법",
+      "사회"
+    ],
+    "activities": [
+      "토론",
+      "글쓰기",
+      "발표",
+      "독서"
+    ],
+    "careers": [
+      "공무원",
+      "정책 분석가",
+      "공공기관 기획자"
+    ],
+    "highSchoolSubjects": [
+      "사회",
+      "국어",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "political-science",
+      "economics",
+      "law"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 70,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "행정학은 사회, 국어, 영어 기반 역량과 토론, 글쓰기 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "political-science",
+    "name": "정치외교학",
+    "field": "사회과학",
+    "relatedSubjects": [
+      "Social Studies",
+      "Korean",
+      "English"
+    ],
+    "keywords": [
+      "정치",
+      "외교",
+      "국제",
+      "정책",
+      "토론"
+    ],
+    "activities": [
+      "토론",
+      "글쓰기",
+      "발표",
+      "독서"
+    ],
+    "careers": [
+      "국제기구 실무자",
+      "정책 보좌관",
+      "언론·리서치 분석가"
+    ],
+    "highSchoolSubjects": [
+      "사회",
+      "국어",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "international-studies",
+      "public-administration",
+      "law"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 68,
+    "employmentOriented": false,
+    "researchOriented": true,
+    "description": "정치외교학은 사회, 국어, 영어 기반 역량과 토론, 글쓰기 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "media-communication",
+    "name": "미디어커뮤니케이션",
+    "field": "사회과학",
+    "relatedSubjects": [
+      "Korean",
+      "Social Studies",
+      "English",
+      "Computer Science"
+    ],
+    "keywords": [
+      "미디어",
+      "콘텐츠",
+      "광고",
+      "커뮤니케이션",
+      "데이터"
+    ],
+    "activities": [
+      "글쓰기",
+      "발표",
+      "토론",
+      "데이터 분석"
+    ],
+    "careers": [
+      "콘텐츠 기획자",
+      "광고 AE",
+      "언론인",
+      "브랜드 커뮤니케이터"
+    ],
+    "highSchoolSubjects": [
+      "국어",
+      "영어",
+      "사회",
+      "정보"
+    ],
+    "similarMajorIds": [
+      "business",
+      "korean-language",
+      "design"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 73,
+    "employmentOriented": true,
+    "researchOriented": false,
+    "description": "미디어커뮤니케이션은 국어, 영어, 사회 기반 역량과 글쓰기, 발표 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "law",
+    "name": "법학",
+    "field": "사회과학",
+    "relatedSubjects": [
+      "Korean",
+      "Social Studies",
+      "English"
+    ],
+    "keywords": [
+      "법",
+      "논리",
+      "제도",
+      "분쟁",
+      "글쓰기"
+    ],
+    "activities": [
+      "독서",
+      "토론",
+      "글쓰기",
+      "발표"
+    ],
+    "careers": [
+      "법무 담당자",
+      "공공기관 실무자",
+      "로스쿨 진학"
+    ],
+    "highSchoolSubjects": [
+      "국어",
+      "사회",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "public-administration",
+      "political-science",
+      "economics"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 71,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "법학은 국어, 사회, 영어 기반 역량과 독서, 토론 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "psychology",
+    "name": "심리학",
+    "field": "사회과학",
+    "relatedSubjects": [
+      "Social Studies",
+      "Science",
+      "Korean",
+      "English"
+    ],
+    "keywords": [
+      "심리",
+      "상담",
+      "통계",
+      "실험",
+      "인간"
+    ],
+    "activities": [
+      "독서",
+      "글쓰기",
+      "데이터 분석",
+      "연구"
+    ],
+    "careers": [
+      "상담 관련 직무",
+      "UX 리서처",
+      "인사 분석가"
+    ],
+    "highSchoolSubjects": [
+      "사회",
+      "생명과학",
+      "국어",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "education",
+      "statistics",
+      "media-communication"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 72,
+    "employmentOriented": false,
+    "researchOriented": true,
+    "description": "심리학은 사회, 생명과학, 국어 기반 역량과 독서, 글쓰기 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "education",
+    "name": "교육학",
+    "field": "인문사회",
+    "relatedSubjects": [
+      "Korean",
+      "Social Studies",
+      "English"
+    ],
+    "keywords": [
+      "교육",
+      "상담",
+      "정책",
+      "글쓰기",
+      "봉사"
+    ],
+    "activities": [
+      "발표",
+      "글쓰기",
+      "봉사",
+      "독서",
+      "토론"
+    ],
+    "careers": [
+      "교육 기획자",
+      "상담 관련 직무",
+      "교육 연구원",
+      "교사"
+    ],
+    "highSchoolSubjects": [
+      "국어",
+      "사회",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "psychology",
+      "korean-language",
+      "public-administration"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 68,
+    "employmentOriented": false,
+    "researchOriented": true,
+    "description": "교육학은 국어, 사회, 영어 기반 역량과 발표, 글쓰기 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "korean-language",
+    "name": "국어국문학",
+    "field": "인문사회",
+    "relatedSubjects": [
+      "Korean",
+      "Social Studies",
+      "English"
+    ],
+    "keywords": [
+      "문학",
+      "언어",
+      "글쓰기",
+      "콘텐츠",
+      "독서"
+    ],
+    "activities": [
+      "글쓰기",
+      "독서",
+      "발표",
+      "토론"
+    ],
+    "careers": [
+      "출판 편집자",
+      "콘텐츠 작가",
+      "국어 교사"
+    ],
+    "highSchoolSubjects": [
+      "국어",
+      "영어",
+      "사회"
+    ],
+    "similarMajorIds": [
+      "media-communication",
+      "education",
+      "english-language"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 66,
+    "employmentOriented": false,
+    "researchOriented": true,
+    "description": "국어국문학은 국어, 영어, 사회 기반 역량과 글쓰기, 독서 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "english-language",
+    "name": "영어영문학",
+    "field": "인문사회",
+    "relatedSubjects": [
+      "English",
+      "Korean",
+      "Social Studies"
+    ],
+    "keywords": [
+      "영어",
+      "문학",
+      "번역",
+      "글쓰기",
+      "국제"
+    ],
+    "activities": [
+      "독서",
+      "글쓰기",
+      "발표",
+      "토론"
+    ],
+    "careers": [
+      "번역·통번역 실무자",
+      "해외영업",
+      "영어 교육 콘텐츠 기획자"
+    ],
+    "highSchoolSubjects": [
+      "영어",
+      "국어",
+      "사회"
+    ],
+    "similarMajorIds": [
+      "international-studies",
+      "korean-language",
+      "media-communication"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 67,
+    "employmentOriented": true,
+    "researchOriented": false,
+    "description": "영어영문학은 영어, 국어, 사회 기반 역량과 독서, 글쓰기 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "international-studies",
+    "name": "국제학",
+    "field": "인문사회",
+    "relatedSubjects": [
+      "English",
+      "Social Studies",
+      "Korean"
+    ],
+    "keywords": [
+      "국제",
+      "외교",
+      "영어",
+      "경제",
+      "문화"
+    ],
+    "activities": [
+      "토론",
+      "발표",
+      "글쓰기",
+      "독서"
+    ],
+    "careers": [
+      "국제협력 실무자",
+      "해외영업",
+      "국제기구 인턴"
+    ],
+    "highSchoolSubjects": [
+      "영어",
+      "사회",
+      "국어"
+    ],
+    "similarMajorIds": [
+      "political-science",
+      "english-language",
+      "economics"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 69,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "국제학은 영어, 사회, 국어 기반 역량과 토론, 발표 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "design",
+    "name": "디자인",
+    "field": "예체능",
+    "relatedSubjects": [
+      "Korean",
+      "Social Studies",
+      "Computer Science"
+    ],
+    "keywords": [
+      "디자인",
+      "UX",
+      "브랜드",
+      "콘텐츠",
+      "표현"
+    ],
+    "activities": [
+      "설계",
+      "발표",
+      "글쓰기",
+      "창업"
+    ],
+    "careers": [
+      "UX 디자이너",
+      "브랜드 디자이너",
+      "콘텐츠 디자이너"
+    ],
+    "highSchoolSubjects": [
+      "미술",
+      "국어",
+      "정보",
+      "사회"
+    ],
+    "similarMajorIds": [
+      "media-communication",
+      "architecture",
+      "business"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 74,
+    "employmentOriented": true,
+    "researchOriented": false,
+    "description": "디자인은 미술, 국어, 정보 기반 역량과 설계, 발표 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "automotive-engineering",
+    "name": "자동차공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Science",
+      "Computer Science"
+    ],
+    "keywords": [
+      "자동차",
+      "모빌리티",
+      "전장",
+      "기계",
+      "제어"
+    ],
+    "activities": [
+      "설계",
+      "실험",
+      "코딩",
+      "데이터 분석"
+    ],
+    "careers": [
+      "모빌리티 엔지니어",
+      "차량 제어 개발자",
+      "품질 엔지니어"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "물리학",
+      "정보"
+    ],
+    "similarMajorIds": [
+      "mechanical-engineering",
+      "electronic-engineering",
+      "robotics"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 80,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "자동차공학은 수학, 물리학, 정보 기반 역량과 설계, 실험 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "robotics",
+    "name": "로봇공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Science",
+      "Computer Science"
+    ],
+    "keywords": [
+      "로봇",
+      "제어",
+      "센서",
+      "AI",
+      "기계"
+    ],
+    "activities": [
+      "설계",
+      "코딩",
+      "실험",
+      "연구"
+    ],
+    "careers": [
+      "로봇 엔지니어",
+      "자동화 시스템 개발자",
+      "제어 엔지니어"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "물리학",
+      "정보"
+    ],
+    "similarMajorIds": [
+      "mechanical-engineering",
+      "electronic-engineering",
+      "artificial-intelligence"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 83,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "로봇공학은 수학, 물리학, 정보 기반 역량과 설계, 코딩 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "hotel-tourism",
+    "name": "호텔관광경영",
+    "field": "사회과학",
+    "relatedSubjects": [
+      "English",
+      "Social Studies",
+      "Korean"
+    ],
+    "keywords": [
+      "관광",
+      "서비스",
+      "경영",
+      "문화",
+      "호텔"
+    ],
+    "activities": [
+      "발표",
+      "토론",
+      "봉사",
+      "글쓰기"
+    ],
+    "careers": [
+      "호텔 매니저",
+      "관광 기획자",
+      "항공·서비스 기획자"
+    ],
+    "highSchoolSubjects": [
+      "영어",
+      "사회",
+      "국어"
+    ],
+    "similarMajorIds": [
+      "business",
+      "international-studies",
+      "media-communication"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 69,
+    "employmentOriented": true,
+    "researchOriented": false,
+    "description": "호텔관광경영은 영어, 사회, 국어 기반 역량과 발표, 토론 활동 경험을 함께 살펴보는 전공입니다.",
+    "cautionNotes": [
+      "실제 교육과정은 대학별 학과 홈페이지와 모집요강으로 확인해야 합니다.",
+      "전공 만족도는 성적뿐 아니라 수업 방식, 활동 경험, 장기 진로 계획에 따라 달라질 수 있습니다."
+    ]
+  },
+  {
+    "id": "civil-environmental-engineering",
+    "name": "건설환경공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Science",
+      "Computer Science"
+    ],
+    "keywords": [
+      "건설",
+      "환경",
+      "도시",
+      "인프라"
+    ],
+    "activities": [
+      "구조 설계",
+      "환경 조사",
+      "공학 탐구"
+    ],
+    "careers": [
+      "건설환경 엔지니어",
+      "도시 인프라 기획자",
+      "환경 컨설턴트"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "물리학",
+      "지구과학"
+    ],
+    "similarMajorIds": [
+      "architecture",
+      "urban-planning",
+      "environmental-science"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 78,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "건설환경공학은 도시 인프라, 구조물, 물·환경 시스템을 설계하고 관리하는 전공입니다.",
+    "cautionNotes": [
+      "대학별로 토목, 사회환경, 건설시스템 등 모집단위명이 다를 수 있습니다."
+    ]
+  },
+  {
+    "id": "electrical-engineering",
+    "name": "전기전자공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Science",
+      "Computer Science"
+    ],
+    "keywords": [
+      "회로",
+      "전력",
+      "전자",
+      "반도체"
+    ],
+    "activities": [
+      "회로 실험",
+      "전자 제작",
+      "물리 탐구"
+    ],
+    "careers": [
+      "전기전자 엔지니어",
+      "반도체 엔지니어",
+      "전력 시스템 엔지니어"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "물리학",
+      "정보"
+    ],
+    "similarMajorIds": [
+      "electronic-engineering",
+      "semiconductor-engineering",
+      "computer-engineering"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 88,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "전기전자공학은 회로, 전력, 통신, 반도체와 컴퓨팅 하드웨어를 폭넓게 다루는 전공입니다.",
+    "cautionNotes": [
+      "전자공학, 전기공학, 전자전기공학부 등 명칭과 교육과정 차이를 확인해야 합니다."
+    ]
+  },
+  {
+    "id": "energy-engineering",
+    "name": "에너지공학",
+    "field": "공학",
+    "relatedSubjects": [
+      "Math",
+      "Science"
+    ],
+    "keywords": [
+      "에너지",
+      "화학",
+      "환경",
+      "소재"
+    ],
+    "activities": [
+      "에너지 실험",
+      "환경 탐구",
+      "소재 탐구"
+    ],
+    "careers": [
+      "에너지 엔지니어",
+      "배터리 연구원",
+      "환경 에너지 컨설턴트"
+    ],
+    "highSchoolSubjects": [
+      "수학",
+      "물리학",
+      "화학"
+    ],
+    "similarMajorIds": [
+      "chemical-engineering",
+      "materials-engineering",
+      "environmental-science"
+    ],
+    "difficultyLevel": 4,
+    "marketOutlook": 84,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "에너지공학은 에너지 생산, 저장, 변환과 친환경 시스템을 연구하는 전공입니다.",
+    "cautionNotes": [
+      "에너지, 원자력, 자원, 환경 분야가 대학별로 다른 학부에 속할 수 있습니다."
+    ]
+  },
+  {
+    "id": "environmental-science",
+    "name": "환경과학",
+    "field": "자연과학",
+    "relatedSubjects": [
+      "Science",
+      "Math",
+      "Social Studies"
+    ],
+    "keywords": [
+      "환경",
+      "생태",
+      "기후",
+      "지구"
+    ],
+    "activities": [
+      "환경 조사",
+      "생태 탐구",
+      "데이터 분석"
+    ],
+    "careers": [
+      "환경 연구원",
+      "생태 조사원",
+      "기후 데이터 분석가"
+    ],
+    "highSchoolSubjects": [
+      "생명과학",
+      "지구과학",
+      "수학"
+    ],
+    "similarMajorIds": [
+      "biology",
+      "earth-science",
+      "civil-environmental-engineering"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 76,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "환경과학은 생태, 기후, 환경오염과 지속가능성을 과학적으로 분석하는 전공입니다.",
+    "cautionNotes": [
+      "환경공학과 환경과학은 공학 중심인지 자연과학 중심인지 확인해야 합니다."
+    ]
+  },
+  {
+    "id": "earth-science",
+    "name": "지구과학",
+    "field": "자연과학",
+    "relatedSubjects": [
+      "Science",
+      "Math"
+    ],
+    "keywords": [
+      "지구",
+      "대기",
+      "해양",
+      "천문"
+    ],
+    "activities": [
+      "지구과학 탐구",
+      "관측",
+      "데이터 분석"
+    ],
+    "careers": [
+      "지구과학 연구원",
+      "기상·해양 분석가",
+      "환경 조사원"
+    ],
+    "highSchoolSubjects": [
+      "지구과학",
+      "수학",
+      "물리학"
+    ],
+    "similarMajorIds": [
+      "physics",
+      "environmental-science",
+      "statistics"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 72,
+    "employmentOriented": false,
+    "researchOriented": true,
+    "description": "지구과학은 지구, 해양, 대기, 천문 현상을 관측하고 해석하는 자연과학 전공입니다.",
+    "cautionNotes": [
+      "지구환경, 해양, 대기, 천문 전공으로 나뉘는 경우가 많습니다."
+    ]
+  },
+  {
+    "id": "veterinary-medicine",
+    "name": "수의예과",
+    "field": "의학",
+    "relatedSubjects": [
+      "Science",
+      "Math",
+      "English"
+    ],
+    "keywords": [
+      "수의학",
+      "생명",
+      "동물",
+      "보건"
+    ],
+    "activities": [
+      "생명과학 탐구",
+      "동물 보건 활동",
+      "실험"
+    ],
+    "careers": [
+      "수의사",
+      "동물 보건 연구원",
+      "공중보건 전문가"
+    ],
+    "highSchoolSubjects": [
+      "생명과학",
+      "화학",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "medicine",
+      "biology",
+      "biotechnology"
+    ],
+    "difficultyLevel": 5,
+    "marketOutlook": 86,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "수의예과는 동물 질병, 생명과학, 공중보건을 다루는 수의학 진입 전공입니다.",
+    "cautionNotes": [
+      "수의예과는 대학과 모집인원이 제한적이므로 최신 모집요강 확인이 중요합니다."
+    ]
+  },
+  {
+    "id": "history",
+    "name": "사학",
+    "field": "인문사회",
+    "relatedSubjects": [
+      "Social Studies",
+      "Korean",
+      "English"
+    ],
+    "keywords": [
+      "역사",
+      "자료",
+      "문화",
+      "해석"
+    ],
+    "activities": [
+      "역사 탐구",
+      "자료 분석",
+      "독서 토론"
+    ],
+    "careers": [
+      "학예연구사",
+      "문화콘텐츠 기획자",
+      "기록물 연구원"
+    ],
+    "highSchoolSubjects": [
+      "한국사",
+      "세계사",
+      "국어"
+    ],
+    "similarMajorIds": [
+      "korean-language",
+      "education",
+      "media-communication"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 66,
+    "employmentOriented": false,
+    "researchOriented": true,
+    "description": "사학은 역사 자료를 분석해 사회와 문화의 변화를 해석하는 인문학 전공입니다.",
+    "cautionNotes": [
+      "진로는 연구, 교육, 기록관리, 문화콘텐츠 등으로 다양하게 준비해야 합니다."
+    ]
+  },
+  {
+    "id": "philosophy",
+    "name": "철학",
+    "field": "인문사회",
+    "relatedSubjects": [
+      "Korean",
+      "Social Studies",
+      "English"
+    ],
+    "keywords": [
+      "논리",
+      "윤리",
+      "사상",
+      "비판적 사고"
+    ],
+    "activities": [
+      "토론",
+      "인문 독서",
+      "논술"
+    ],
+    "careers": [
+      "연구원",
+      "교육·출판 기획자",
+      "정책·윤리 컨설턴트"
+    ],
+    "highSchoolSubjects": [
+      "윤리와 사상",
+      "국어",
+      "영어"
+    ],
+    "similarMajorIds": [
+      "education",
+      "law",
+      "political-science"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 62,
+    "employmentOriented": false,
+    "researchOriented": true,
+    "description": "철학은 논리, 윤리, 존재와 지식의 문제를 탐구하는 인문학 전공입니다.",
+    "cautionNotes": [
+      "진로 연계를 위해 복수전공이나 데이터·미디어 역량을 함께 고려하면 좋습니다."
+    ]
+  },
+  {
+    "id": "sociology",
+    "name": "사회학",
+    "field": "사회과학",
+    "relatedSubjects": [
+      "Social Studies",
+      "Korean",
+      "Math"
+    ],
+    "keywords": [
+      "사회",
+      "조사",
+      "통계",
+      "정책"
+    ],
+    "activities": [
+      "사회문제 탐구",
+      "설문조사",
+      "데이터 분석"
+    ],
+    "careers": [
+      "사회조사 분석가",
+      "정책 연구원",
+      "공공기관 기획자"
+    ],
+    "highSchoolSubjects": [
+      "사회와 문화",
+      "정치",
+      "확률과 통계"
+    ],
+    "similarMajorIds": [
+      "public-administration",
+      "political-science",
+      "statistics"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 70,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "사회학은 사회 구조, 집단, 제도와 사회문제를 조사하고 분석하는 사회과학 전공입니다.",
+    "cautionNotes": [
+      "정량 조사와 통계 역량을 함께 준비하면 전공 적합도가 높아집니다."
+    ]
+  },
+  {
+    "id": "language-literature",
+    "name": "어문학",
+    "field": "인문사회",
+    "relatedSubjects": [
+      "Korean",
+      "English",
+      "Social Studies"
+    ],
+    "keywords": [
+      "언어",
+      "문학",
+      "문화",
+      "번역"
+    ],
+    "activities": [
+      "외국어 독서",
+      "번역",
+      "문화 탐구"
+    ],
+    "careers": [
+      "번역가",
+      "콘텐츠 기획자",
+      "국제교류 담당자"
+    ],
+    "highSchoolSubjects": [
+      "국어",
+      "영어",
+      "제2외국어"
+    ],
+    "similarMajorIds": [
+      "english-language",
+      "korean-language",
+      "international-studies"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 68,
+    "employmentOriented": true,
+    "researchOriented": true,
+    "description": "어문학은 언어, 문학, 문화권 이해를 바탕으로 국제·문화 콘텐츠 역량을 기르는 전공입니다.",
+    "cautionNotes": [
+      "세부 언어권과 통번역, 국제, 미디어 연계 여부를 확인해야 합니다."
+    ]
+  },
+  {
+    "id": "international-trade",
+    "name": "무역·국제통상",
+    "field": "사회과학",
+    "relatedSubjects": [
+      "Social Studies",
+      "Math",
+      "English"
+    ],
+    "keywords": [
+      "무역",
+      "국제",
+      "경제",
+      "물류"
+    ],
+    "activities": [
+      "경제 탐구",
+      "국제 이슈 분석",
+      "영어 발표"
+    ],
+    "careers": [
+      "무역 실무자",
+      "국제통상 전문가",
+      "물류 기획자"
+    ],
+    "highSchoolSubjects": [
+      "경제",
+      "영어",
+      "확률과 통계"
+    ],
+    "similarMajorIds": [
+      "economics",
+      "business",
+      "international-studies"
+    ],
+    "difficultyLevel": 3,
+    "marketOutlook": 76,
+    "employmentOriented": true,
+    "researchOriented": false,
+    "description": "무역·국제통상은 국제 경제, 무역 실무, 물류와 글로벌 비즈니스를 다루는 전공입니다.",
+    "cautionNotes": [
+      "경제·경영 기반과 외국어 역량을 함께 준비하는 것이 좋습니다."
+    ]
+  }
+]
