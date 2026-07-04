@@ -35,9 +35,31 @@ export const admissionTypeOptions = ["학생부교과", "학생부종합"] as co
 
 export const majorAreaOptions: MajorArea[] = ["인문", "자연", "사회", "공학", "교육", "예체능", "교양"];
 
-const ULTRA_SELECTIVE_UNIVERSITY_IDS = new Set(["seoul-national", "yonsei", "korea", "kaist", "postech"]);
-const TOP_SELECTIVE_UNIVERSITY_IDS = new Set(["sogang", "sungkyunkwan", "hanyang"]);
-const UPPER_SELECTIVE_UNIVERSITY_IDS = new Set(["chungang", "kyunghee", "hufs", "uos"]);
+const UNIVERSITY_BENCHMARK_GRADES = new Map<string, number>([
+  ["seoul-national", 1.0],
+  ["yonsei", 1.0],
+  ["korea", 1.0],
+  ["kaist", 1.0],
+  ["postech", 1.0],
+  ["sogang", 1.1],
+  ["sungkyunkwan", 1.1],
+  ["hanyang", 1.1],
+  ["chungang", 1.2],
+  ["kyunghee", 1.2],
+  ["hufs", 1.2],
+  ["uos", 1.2],
+  ["ewha", 1.2],
+  ["konkuk", 1.3],
+  ["dongguk", 1.3],
+  ["hongik", 1.3],
+  ["sookmyung", 1.3],
+  ["kookmin", 1.4],
+  ["soongsil", 1.4],
+  ["ajou", 1.4],
+  ["sejong", 1.4],
+  ["inha", 1.4],
+  ["seoultech", 1.4]
+]);
 
 export function normalizeAdmissionType(type: string): string {
   return type.includes("교과") || type.includes("지역") ? "학생부교과" : "학생부종합";
@@ -122,60 +144,35 @@ function getMoreConservativeCategory(category: AdmissionCategory, cap: Admission
   return ADMISSION_CATEGORY_META[category].rank <= ADMISSION_CATEGORY_META[cap].rank ? category : cap;
 }
 
+function getUniversityBenchmarkGrade(universityId?: string): number | null {
+  return universityId ? UNIVERSITY_BENCHMARK_GRADES.get(universityId) ?? null : null;
+}
+
+function classifyBenchmarkAdmissionChance(userGrade: number, benchmarkGrade: number): AdmissionCategory {
+  const gap = userGrade - benchmarkGrade;
+
+  if (gap <= -0.08) {
+    return "veryStable";
+  }
+
+  if (gap <= -0.03) {
+    return "stable";
+  }
+
+  if (gap <= 0.03) {
+    return "appropriate";
+  }
+
+  if (gap <= 0.15) {
+    return "ambitious";
+  }
+
+  return "reach";
+}
+
 function getUniversitySelectivityCap(userGrade: number, universityId?: string): AdmissionCategory | null {
-  if (!universityId) {
-    return null;
-  }
-
-  if (ULTRA_SELECTIVE_UNIVERSITY_IDS.has(universityId)) {
-    if (userGrade <= 1.06) {
-      return "veryStable";
-    }
-    if (userGrade <= 1.14) {
-      return "stable";
-    }
-    if (userGrade <= 1.24) {
-      return "appropriate";
-    }
-    if (userGrade <= 1.34) {
-      return "ambitious";
-    }
-    return "reach";
-  }
-
-  if (TOP_SELECTIVE_UNIVERSITY_IDS.has(universityId)) {
-    if (userGrade <= 1.12) {
-      return "veryStable";
-    }
-    if (userGrade <= 1.22) {
-      return "stable";
-    }
-    if (userGrade <= 1.34) {
-      return "appropriate";
-    }
-    if (userGrade <= 1.45) {
-      return "ambitious";
-    }
-    return "reach";
-  }
-
-  if (UPPER_SELECTIVE_UNIVERSITY_IDS.has(universityId)) {
-    if (userGrade <= 1.2) {
-      return "veryStable";
-    }
-    if (userGrade <= 1.3) {
-      return "stable";
-    }
-    if (userGrade <= 1.43) {
-      return "appropriate";
-    }
-    if (userGrade <= 1.58) {
-      return "ambitious";
-    }
-    return "reach";
-  }
-
-  return null;
+  const benchmarkGrade = getUniversityBenchmarkGrade(universityId);
+  return benchmarkGrade ? classifyBenchmarkAdmissionChance(userGrade, benchmarkGrade) : null;
 }
 
 export function classifyDepartmentAdmissionChance(
@@ -226,10 +223,10 @@ export function classifyDepartmentAdmissionChance(
 function categoryBaseScore(category: AdmissionCategory): number {
   return {
     veryStable: 94,
-    stable: 88,
-    appropriate: 78,
-    ambitious: 62,
-    reach: 38
+    stable: 86,
+    appropriate: 74,
+    ambitious: 55,
+    reach: 28
   }[category];
 }
 
@@ -277,7 +274,9 @@ export function calculateUniversityMatch(
   const category = classifyDepartmentAdmissionChance(userGrade, department, university);
   const majorFitScore = getMajorFit(majorFitScores, department);
   const midPoint = (department.referenceGradeRange.min + department.referenceGradeRange.max) / 2;
-  const gradeProximityScore = distanceToScore(userGrade - midPoint, 0.5);
+  const benchmarkGrade = getUniversityBenchmarkGrade(university.id);
+  const gradeReferencePoint = benchmarkGrade ?? midPoint;
+  const gradeProximityScore = distanceToScore(userGrade - gradeReferencePoint, benchmarkGrade ? 0.42 : 0.5);
   const selectivityPenalty = isUltraSelectiveMedicalDepartment(department)
     ? userGrade > 1.4
       ? 18
@@ -287,12 +286,16 @@ export function calculateUniversityMatch(
     : isPharmacyDepartment(department) && userGrade > 1.55
       ? 10
       : 0;
+  const benchmarkPenalty = benchmarkGrade
+    ? clamp((userGrade - benchmarkGrade - 0.15) * 90, 0, 24)
+    : 0;
   const score = roundTo(
     clamp(
       categoryBaseScore(category) * 0.62 +
         gradeProximityScore * 0.28 +
         (majorFitScore ?? 60) * 0.1 -
-        selectivityPenalty,
+        selectivityPenalty -
+        benchmarkPenalty,
       0,
       100
     )
