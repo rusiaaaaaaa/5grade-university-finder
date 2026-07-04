@@ -35,6 +35,10 @@ export const admissionTypeOptions = ["학생부교과", "학생부종합"] as co
 
 export const majorAreaOptions: MajorArea[] = ["인문", "자연", "사회", "공학", "교육", "예체능", "교양"];
 
+const ULTRA_SELECTIVE_UNIVERSITY_IDS = new Set(["seoul-national", "yonsei", "korea", "kaist", "postech"]);
+const TOP_SELECTIVE_UNIVERSITY_IDS = new Set(["sogang", "sungkyunkwan", "hanyang"]);
+const UPPER_SELECTIVE_UNIVERSITY_IDS = new Set(["chungang", "kyunghee", "hufs", "uos"]);
+
 export function normalizeAdmissionType(type: string): string {
   return type.includes("교과") || type.includes("지역") ? "학생부교과" : "학생부종합";
 }
@@ -110,44 +114,113 @@ function isPharmacyDepartment(department: Pick<Department, "field" | "majorId" |
   return /약학|pharmacy/.test(text);
 }
 
-function classifyDepartmentAdmissionChance(userGrade: number, department: Department): AdmissionCategory {
+function getMoreConservativeCategory(category: AdmissionCategory, cap: AdmissionCategory | null): AdmissionCategory {
+  if (!cap) {
+    return category;
+  }
+
+  return ADMISSION_CATEGORY_META[category].rank <= ADMISSION_CATEGORY_META[cap].rank ? category : cap;
+}
+
+function getUniversitySelectivityCap(userGrade: number, universityId?: string): AdmissionCategory | null {
+  if (!universityId) {
+    return null;
+  }
+
+  if (ULTRA_SELECTIVE_UNIVERSITY_IDS.has(universityId)) {
+    if (userGrade <= 1.06) {
+      return "veryStable";
+    }
+    if (userGrade <= 1.14) {
+      return "stable";
+    }
+    if (userGrade <= 1.24) {
+      return "appropriate";
+    }
+    if (userGrade <= 1.34) {
+      return "ambitious";
+    }
+    return "reach";
+  }
+
+  if (TOP_SELECTIVE_UNIVERSITY_IDS.has(universityId)) {
+    if (userGrade <= 1.12) {
+      return "veryStable";
+    }
+    if (userGrade <= 1.22) {
+      return "stable";
+    }
+    if (userGrade <= 1.34) {
+      return "appropriate";
+    }
+    if (userGrade <= 1.45) {
+      return "ambitious";
+    }
+    return "reach";
+  }
+
+  if (UPPER_SELECTIVE_UNIVERSITY_IDS.has(universityId)) {
+    if (userGrade <= 1.2) {
+      return "veryStable";
+    }
+    if (userGrade <= 1.3) {
+      return "stable";
+    }
+    if (userGrade <= 1.43) {
+      return "appropriate";
+    }
+    if (userGrade <= 1.58) {
+      return "ambitious";
+    }
+    return "reach";
+  }
+
+  return null;
+}
+
+export function classifyDepartmentAdmissionChance(
+  userGrade: number,
+  department: Department,
+  university?: Pick<University, "id">
+): AdmissionCategory {
   if (!userGrade) {
     return "reach";
   }
 
+  let category: AdmissionCategory;
+
   if (isUltraSelectiveMedicalDepartment(department)) {
     if (userGrade <= 1.12) {
-      return "veryStable";
+      category = "veryStable";
+    } else if (userGrade <= 1.2) {
+      category = "stable";
+    } else if (userGrade <= 1.3) {
+      category = "appropriate";
+    } else if (userGrade <= 1.4) {
+      category = "ambitious";
+    } else {
+      category = "reach";
     }
-    if (userGrade <= 1.2) {
-      return "stable";
-    }
-    if (userGrade <= 1.3) {
-      return "appropriate";
-    }
-    if (userGrade <= 1.4) {
-      return "ambitious";
-    }
-    return "reach";
+    return getMoreConservativeCategory(category, getUniversitySelectivityCap(userGrade, university?.id));
   }
 
   if (isPharmacyDepartment(department)) {
     if (userGrade <= 1.18) {
-      return "veryStable";
+      category = "veryStable";
+    } else if (userGrade <= 1.28) {
+      category = "stable";
+    } else if (userGrade <= 1.4) {
+      category = "appropriate";
+    } else if (userGrade <= 1.55) {
+      category = "ambitious";
+    } else {
+      category = "reach";
     }
-    if (userGrade <= 1.28) {
-      return "stable";
-    }
-    if (userGrade <= 1.4) {
-      return "appropriate";
-    }
-    if (userGrade <= 1.55) {
-      return "ambitious";
-    }
-    return "reach";
+    return getMoreConservativeCategory(category, getUniversitySelectivityCap(userGrade, university?.id));
   }
 
-  return classifyAdmissionChance(userGrade, department.referenceGradeRange);
+  category = classifyAdmissionChance(userGrade, department.referenceGradeRange);
+  return getMoreConservativeCategory(category, getUniversitySelectivityCap(userGrade, university?.id));
 }
 
 function categoryBaseScore(category: AdmissionCategory): number {
@@ -201,7 +274,7 @@ export function calculateUniversityMatch(
   majorFitScores?: MajorFitScore[]
 ): UniversityMatch {
   const userGrade = getOverallGradeAverage(input) || 3.3;
-  const category = classifyDepartmentAdmissionChance(userGrade, department);
+  const category = classifyDepartmentAdmissionChance(userGrade, department, university);
   const majorFitScore = getMajorFit(majorFitScores, department);
   const midPoint = (department.referenceGradeRange.min + department.referenceGradeRange.max) / 2;
   const gradeProximityScore = distanceToScore(userGrade - midPoint, 0.5);

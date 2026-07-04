@@ -6,7 +6,7 @@ import CategoryBadge from "./CategoryBadge";
 import ScoreBar from "./ScoreBar";
 import { calculateMajorFitScore } from "@/lib/majorRecommendation";
 import { GRADE_SCALE } from "@/lib/scoring";
-import { classifyAdmissionChance } from "@/lib/universityRecommendation";
+import { classifyDepartmentAdmissionChance } from "@/lib/universityRecommendation";
 import { simulateFutureGrades } from "@/lib/gradeCalculator";
 import type { GradeInput, MajorFitScore, UniversityMatch } from "@/lib/types";
 
@@ -35,7 +35,7 @@ export default function SimulationPanel({
 
   const nextMajorScore = calculateMajorFitScore(topMajor.major, simulation.updatedInput);
   const nextCategory = topMatch
-    ? classifyAdmissionChance(simulation.newAverage, topMatch.department.referenceGradeRange)
+    ? classifyDepartmentAdmissionChance(simulation.newAverage, topMatch.department, topMatch.university)
     : undefined;
   const majorDelta = nextMajorScore.finalScore - topMajor.finalScore;
 
