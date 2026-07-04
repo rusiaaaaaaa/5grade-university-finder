@@ -3,9 +3,49 @@ import Link from "next/link";
 import { GraduationCap } from "lucide-react";
 import "./globals.css";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://5grade-university-finder.vercel.app";
+
 export const metadata: Metadata = {
-  title: "5등급제 내신대학찾기",
-  description: "고등학생을 위한 5등급제 기반 대학·학과 추천 웹 서비스"
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "5등급제 내신대학찾기",
+    template: "%s | 5등급제 내신대학찾기"
+  },
+  description: "2022 개정 교육과정 5등급제 기준으로 현재 내신에 맞는 대학과 학과를 찾아보는 고교 내신 기반 추천 서비스입니다.",
+  keywords: [
+    "5등급제",
+    "내신대학찾기",
+    "내신 대학 추천",
+    "고등학생 대학 추천",
+    "2022 개정 교육과정",
+    "5등급제 내신",
+    "학생부교과",
+    "학생부종합"
+  ],
+  alternates: {
+    canonical: "/"
+  },
+  openGraph: {
+    title: "5등급제 내신대학찾기",
+    description: "현재 내신을 입력하고 5단계 대학·학과 추천 결과를 확인하세요.",
+    url: siteUrl,
+    siteName: "5등급제 내신대학찾기",
+    locale: "ko_KR",
+    type: "website"
+  },
+  twitter: {
+    card: "summary",
+    title: "5등급제 내신대학찾기",
+    description: "현재 내신 기반 대학·학과 추천 서비스"
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true
+    }
+  }
 };
 
 const navItems = [

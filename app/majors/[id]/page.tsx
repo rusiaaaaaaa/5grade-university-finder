@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import DisclaimerBox from "@/components/DisclaimerBox";
@@ -5,6 +6,32 @@ import { sampleMajors, sampleUniversities, subjectCategoryLabels } from "@/lib/s
 
 export function generateStaticParams() {
   return sampleMajors.map((major) => ({ id: major.id }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const major = sampleMajors.find((item) => item.id === id);
+
+  if (!major) {
+    return {
+      title: "학과 정보",
+      description: "5등급제 내신대학찾기 학과 정보"
+    };
+  }
+
+  return {
+    title: `${major.name} 학과 정보`,
+    description: `${major.name} 관련 과목, 진로, 연결된 대학·학과를 5등급제 내신대학찾기에서 확인하세요.`,
+    alternates: {
+      canonical: `/majors/${major.id}`
+    },
+    openGraph: {
+      title: `${major.name} 학과 정보`,
+      description: major.description,
+      url: `/majors/${major.id}`,
+      type: "article"
+    }
+  };
 }
 
 export default async function MajorDetailPage({ params }: { params: Promise<{ id: string }> }) {

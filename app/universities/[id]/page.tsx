@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExternalLink, MapPin } from "lucide-react";
@@ -13,6 +14,32 @@ const universityTypeLabels: Record<UniversityType, string> = {
 
 export function generateStaticParams() {
   return sampleUniversities.map((university) => ({ id: university.id }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const university = sampleUniversities.find((item) => item.id === id);
+
+  if (!university) {
+    return {
+      title: "대학 정보",
+      description: "5등급제 내신대학찾기 대학 정보"
+    };
+  }
+
+  return {
+    title: `${university.name} 학과 정보`,
+    description: `${university.name}의 개설 학과, 전형, 기준 등급을 5등급제 내신대학찾기에서 확인하세요.`,
+    alternates: {
+      canonical: `/universities/${university.id}`
+    },
+    openGraph: {
+      title: `${university.name} 학과 정보`,
+      description: `${university.name}의 대학·학과 정보를 확인하세요.`,
+      url: `/universities/${university.id}`,
+      type: "article"
+    }
+  };
 }
 
 export default async function UniversityDetailPage({ params }: { params: Promise<{ id: string }> }) {
