@@ -82,6 +82,10 @@ export default function ResultSummary() {
       })),
     [matches]
   );
+  const visibleGroupedMatches = useMemo(
+    () => groupedMatches.filter(({ matches: categoryMatches }) => categoryMatches.length > 0),
+    [groupedMatches]
+  );
   const topMajor = majorScores[0];
   const topMatch = matches[0];
   const overallAverage = getOverallGradeAverage(input);
@@ -224,7 +228,8 @@ export default function ResultSummary() {
             <p className="text-sm font-semibold text-stone-500">{matches.length}개 결과</p>
           </div>
           <div className="space-y-7">
-            {groupedMatches.map(({ category, matches: categoryMatches }) => {
+            {visibleGroupedMatches.length ? (
+              visibleGroupedMatches.map(({ category, matches: categoryMatches }) => {
               const meta = ADMISSION_CATEGORY_META[category];
               const isExpanded = expandedCategories.includes(category);
               const hasMoreMatches = categoryMatches.length > 3;
@@ -258,14 +263,15 @@ export default function ResultSummary() {
                         <UniversityCard key={`${match.university.id}-${match.department.id}`} match={match} />
                       ))}
                     </div>
-                  ) : (
-                    <p className="mt-4 rounded-2xl bg-blue-50/60 p-4 text-sm text-slate-600">
-                      현재 입력값과 필터 조건에 맞는 {meta.label} 결과가 없습니다.
-                    </p>
-                  )}
+                  ) : null}
                 </section>
               );
-            })}
+              })
+            ) : (
+              <p className="rounded-2xl bg-blue-50/60 p-4 text-sm text-slate-600">
+                현재 입력값과 필터 조건에 맞는 결과가 없습니다.
+              </p>
+            )}
           </div>
         </div>
 
@@ -347,7 +353,7 @@ export default function ResultSummary() {
           <div>
             <h3 className="font-black text-ink">5단계별 대학·학과 추천</h3>
             <div className="mt-3 space-y-3 text-sm">
-              {groupedMatches.map(({ category, matches: categoryMatches }) => {
+              {visibleGroupedMatches.length ? visibleGroupedMatches.map(({ category, matches: categoryMatches }) => {
                 const meta = ADMISSION_CATEGORY_META[category];
                 return (
                   <div key={category} className="rounded-2xl bg-blue-50/60 p-3">
@@ -355,20 +361,18 @@ export default function ResultSummary() {
                       <span className="font-black text-ink">{meta.label}</span>
                       <span className="font-semibold text-stone-500">{categoryMatches.length}개</span>
                     </div>
-                    {categoryMatches.length ? (
-                      <ol className="mt-2 space-y-1">
-                        {categoryMatches.slice(0, 3).map((match, index) => (
-                          <li key={`${match.university.id}-${match.department.id}`}>
-                            {index + 1}. {match.university.name} {match.department.name}
-                          </li>
-                        ))}
-                      </ol>
-                    ) : (
-                      <p className="mt-2 text-stone-600">해당 단계 결과 없음</p>
-                    )}
+                    <ol className="mt-2 space-y-1">
+                      {categoryMatches.slice(0, 3).map((match, index) => (
+                        <li key={`${match.university.id}-${match.department.id}`}>
+                          {index + 1}. {match.university.name} {match.department.name}
+                        </li>
+                      ))}
+                    </ol>
                   </div>
                 );
-              })}
+              }) : (
+                <p className="rounded-2xl bg-blue-50/60 p-3 text-stone-600">조건에 맞는 결과가 없습니다.</p>
+              )}
             </div>
           </div>
           {hasSubjectGradeInput ? (
