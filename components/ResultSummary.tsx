@@ -397,12 +397,11 @@ export default function ResultSummary() {
         </div>
 
         <div className="mt-6 rounded-2xl border border-blue-100 bg-blue-50/70 p-4 text-sm leading-6 text-slate-700">
-          <p className="font-black">개선 제안과 주의 사항</p>
+          <p className="font-black">다음 입력 제안</p>
           <p className="mt-1">
             {hasSubjectGradeInput
               ? "상위 전공의 관련 과목을 우선 보완하면 학과 적합도 점수를 더 높일 수 있습니다."
-              : "학과 적합도를 보려면 다음 입력에서 과목별 등급과 단위수를 입력해 주세요."}{" "}
-            이 리포트는 상담 준비용 참고 자료이며 공식 입시 판단이 아닙니다.
+              : "학과 적합도를 보려면 다음 입력에서 과목별 등급과 단위수를 입력해 주세요."}
           </p>
         </div>
       </section>

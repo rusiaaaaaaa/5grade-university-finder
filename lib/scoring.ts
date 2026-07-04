@@ -13,7 +13,7 @@ export const FIVE_TO_NINE_GRADE_ANCHORS = [
   { fiveGrade: 1.2, nineGrade: 1.5, group: "중앙대·경희대·외대·시립대권" },
   { fiveGrade: 1.3, nineGrade: 1.75, group: "건국대·동국대·홍익대권" },
   { fiveGrade: 1.4, nineGrade: 2.0, group: "국민대·숭실대·세종대·단국대권" },
-  { fiveGrade: 1.5, nineGrade: 2.13, group: "지방거점·수도권 주요대 참고권" }
+  { fiveGrade: 1.5, nineGrade: 2.13, group: "지방거점·수도권 주요대권" }
 ] as const;
 
 export const ADMISSION_CATEGORY_META: Record<

@@ -100,7 +100,7 @@ export function generateRecommendationReason(
       : `전체 평균 ${getOverallGradeAverage(input).toFixed(2)}등급`;
   const importantSubjects = score.major.highSchoolSubjects.slice(0, 3).join(", ");
 
-  return `${subjectText}과 ${importantSubjects} 과목군의 연결성을 반영해 ${score.major.name} 적합도가 ${score.finalScore}점으로 계산되었습니다. 이 점수는 합격 가능성이 아니라 과목별 성적 기반 전공 적합도 참고 지표입니다.`;
+  return `${subjectText}과 ${importantSubjects} 과목군의 연결성을 반영해 ${score.major.name} 적합도가 ${score.finalScore}점으로 계산되었습니다. 이 점수는 과목별 성적 기반 전공 적합도 지표입니다.`;
 }
 
 export function generateCautionNotes(score: MajorFitScore): string[] {

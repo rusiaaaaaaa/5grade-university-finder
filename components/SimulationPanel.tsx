@@ -47,7 +47,7 @@ export default function SimulationPanel({
       </div>
       <p className="mt-2 text-sm leading-6 text-stone-600">
         예비 3학년 2학기 성적을 바꿔 보면 평균 등급과 전공 적합도, 추천 분류가 어떻게 움직이는지
-        참고할 수 있습니다.
+        확인할 수 있습니다.
       </p>
 
       <div className="mt-5 grid gap-4 md:grid-cols-3">

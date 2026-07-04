@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="animate-rise space-y-8">
           <div className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-bold text-blue-700">
             <ShieldCheck aria-hidden className="h-4 w-4" />
-            5등급제 기준 · 합격 보장이 아닌 참고용 분석
+            5등급제 기준 · 현재 내신 기반 분석
           </div>
           <div className="space-y-5">
             <h1 className="max-w-4xl text-4xl font-black leading-tight tracking-tight text-ink sm:text-5xl lg:text-6xl">

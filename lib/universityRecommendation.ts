@@ -239,8 +239,7 @@ export function calculateUniversityMatch(
     explanation: createExplanation(userGrade, department, category, majorFitScore),
     cautionNotes: [
       department.cautionNotes,
-      ADMISSION_CATEGORY_META[category].description,
-      "참고용 결과이며 실제 합격을 보장하지 않습니다."
+      ADMISSION_CATEGORY_META[category].description
     ],
     tags: Array.from(new Set([university.region, normalizeAdmissionType(department.admissionType), ...department.tags]))
   };

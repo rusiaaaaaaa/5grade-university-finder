@@ -67,7 +67,7 @@ export default async function MajorDetailPage({ params }: { params: Promise<{ id
             <h2 className="text-xl font-black text-ink">적합할 수 있는 학생</h2>
             <p className="mt-3 leading-7 text-stone-700">
               {major.activities.join(", ")} 활동을 좋아하고 {major.highSchoolSubjects.slice(0, 3).join(", ")} 과목을
-              꾸준히 보완할 수 있는 학생에게 참고 추천될 수 있습니다.
+              꾸준히 보완할 수 있는 학생에게 잘 맞을 수 있습니다.
             </p>
             <div className="mt-5 grid gap-4 md:grid-cols-2">
               <div className="rounded-lg bg-linen p-4">

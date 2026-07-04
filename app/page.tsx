@@ -15,7 +15,7 @@ export default function LandingPage() {
               입시 상담 전에 스스로 확인하는 기준점
             </h2>
             <p className="leading-8 text-slate-600">
-              5등급제 내신대학찾기는 실제 합격을 단정하지 않고, 기준 범위와 현재 입력값 사이의 차이를 설명합니다.
+              5등급제 내신대학찾기는 기준 범위와 현재 입력값 사이의 차이를 바탕으로 대학과 학과 가능성을 정리합니다.
               학과 추천은 과목별 성적과 관련 과목 강점을 기준으로만 계산해 혼동을 줄였습니다.
             </p>
             <div className="flex flex-col gap-3 sm:flex-row">
@@ -36,7 +36,7 @@ export default function LandingPage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-3">
             {[
-              [ShieldCheck, "보수적 문구", "합격 보장 표현을 쓰지 않고 참고용 결과로 안내합니다."],
+              [ShieldCheck, "명확한 단계", "현재 내신 기준으로 매우 안정부터 상향까지 한눈에 정리합니다."],
               [FileText, "설명 가능한 계산", "등급, 전형, 기준 범위, 과목 적합도를 분리해 보여줍니다."],
               [Database, "교체 가능한 데이터", "JSON 파일을 나중에 Supabase나 PostgreSQL로 옮기기 쉽습니다."]
             ].map(([Icon, title, copy]) => {

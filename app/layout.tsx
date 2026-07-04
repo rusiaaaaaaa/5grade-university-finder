@@ -44,8 +44,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <main>{children}</main>
         <footer className="border-t border-blue-100 bg-white px-5 py-8 sm:px-8">
           <div className="mx-auto flex max-w-7xl flex-col gap-3 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-            <p>5등급제 내신대학찾기 · 합격을 보장하지 않는 참고용 추천 서비스</p>
-            <p>현재 내신 기반 대학·학과 추천 도구</p>
+            <p>5등급제 내신대학찾기 · 현재 내신 기반 대학·학과 추천 서비스</p>
+            <p>고교 내신 기반 진학 탐색 도구</p>
           </div>
         </footer>
       </body>
